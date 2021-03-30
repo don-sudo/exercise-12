@@ -1,0 +1,64 @@
+**{
+    box-sizing: border-box;
+}
+
+.dota1{
+    float:left;
+    width:48%;
+    margin:1%;
+}
+.csgo2{
+    float:left;
+    width:48%;
+    margin:1%;
+}
+.valorant3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.codwarzone4{
+    float:left;
+    width:100%;
+   
+}
+.drawing5{
+    float:left;
+    width:31%;
+    margin:1%;
+}
+.manga6{
+    float:left;
+    width:31%;
+    margin:1%;
+}
+.movies7{
+    float:left;
+    width:32%;
+    margin:1%;
+}
+.sepak8{
+    float:right;
+    width:23%;
+    margin: 1%;
+    
+}
+.labrador9{
+    float:right;
+    width:23%;
+    margin: 1%;
+}
+.bonsai10{
+    float:right;
+    width:23%;
+    margin: 1%;
+}
+
+
+
+@media only screen and (max-width:620px) {
+    .dota1, .csgo2,.valorant3, .codwarzone4, .drawing5, .manga6, .movies7, .sepak8, .labrador9, .bonsai10 {
+    width:100%;
+     }
+}
